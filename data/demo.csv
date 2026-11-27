@@ -1,0 +1,5 @@
+event_id,failures_15m,new_device,new_region,off_hours,client,mfa,demo_case
+E18090,0.0,no,no,no,mobile,,TN
+E20390,9.0,yes,yes,no,browser,unavailable,TP
+E20598,1.0,no,yes,yes,browser,unavailable,FP
+E17653,1.0,yes,no,yes,mobile,denied,FN
