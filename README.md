@@ -51,4 +51,3 @@ python auth_risk.py detect data/demo.csv
 - [Очищенный датасет](data/clean.csv), [события для демо](data/demo.csv)
 - [Измеренные метрики](artifacts/metrics.json), [предсказания на тесте](artifacts/test_predictions.csv), [EDA](artifacts/eda.png), [PR-кривые](artifacts/precision_recall.png), [матрица ошибок](artifacts/confusion.png), [важность признаков](artifacts/importance.png)
 
-Чтобы повторно собрать PDF и PPTX после обучения, запустите `python make_deliverables.py`. Для PDF нужны шрифты DejaVu Sans в стандартном системном каталоге Linux либо в директории, указанной через `DEJAVU_FONT_DIR`.
